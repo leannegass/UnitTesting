@@ -21,6 +21,6 @@ public class GreeterTest {
     void givenTheTimeIs12ReturnGoodEve(){
         Assertions.assertEquals("Good Morn", Greeter.getgreetings(12));
     }
-    
+
 
 }

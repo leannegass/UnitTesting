@@ -4,8 +4,10 @@ package org.sparta;
 public class program {
 
     public static void main(String[] args) {
-        int timeOfDay = 21 ;
-        System.out.println(Greeter.getgreetings(timeOfDay));
+        //int timeOfDay = 21 ;
+        //System.out.println(Greeter.getgreetings(timeOfDay));
+        int ageOfViewer = 15;
+        System.out.println(FilmClassifications.availableClassifications(ageOfViewer));
     }
 
 }
